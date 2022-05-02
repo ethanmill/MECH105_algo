@@ -2,8 +2,8 @@
 All algorithms created over the course of MECH 105
 
 ### All files in this repo
-1. LU algo
-2. other algo
-3. other algo
-4. something else
-5. djdd
+1. Matrices
+2. Root finding methods
+3. LU algorithm
+4. Simpson's 1/3 algorithm
+5. Linear Regression
