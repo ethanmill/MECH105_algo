@@ -1,11 +1,11 @@
 %Function f(x)=-0.9x^2+1.7x+2.5
 %f1,h f2,h f3,h f1,v f2,v f3,v
-function [root, fx, ea, iter] = Secant(func,x0,x1,maxit,es)
+function [root, fx, ea, iter] = Secant(func,x0,x1,es,maxit)
     fx=func;
-    if nargin<4
+    if nargin<5
         maxit=100;
     end
-    if nargin<5
+    if nargin<4
         es=0.01;
     end
     ea=100;

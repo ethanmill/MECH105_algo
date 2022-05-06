@@ -1,11 +1,11 @@
 %Function f(x)=-0.9x^2+1.7x+2.5
 
-function [root, fx, ea, iter] = FixedPoint(func,xi,maxiter,es)
+function [root, fx, ea, iter] = FixedPoint(func,xi,es,maxiter)
     fx=func;
-    if nargin<3
+    if nargin<4
         maxiter=100;
     end
-    if nargin<4
+    if nargin<3
         es=0.01;
     end
     ea=100;

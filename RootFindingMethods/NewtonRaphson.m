@@ -1,4 +1,4 @@
-function [root, fx, ea, iter] = NewtonRaphson(func, xi, maxiter, es)
+function [root, fx, ea, iter] = NewtonRaphson(func, xi,es, maxiter)
     fx=func;
     syms x;
     dfunc=matlabFunction(diff(func,x));

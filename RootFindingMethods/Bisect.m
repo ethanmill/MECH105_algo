@@ -1,11 +1,11 @@
-function [root, fx, ea, iter] = Bisect(func,xl,xu,maxiter,es)
+function [root, fx, ea, iter] = Bisect(func,xl,xu,es,maxiter)
     bl=xl;
     bu=xu;
     fx=func;
-    if nargin<4 % When there is less than 4 arguements assume maxiter is 200
+    if nargin<5 % When there is less than 5 arguements assume maxiter is 200
         maxiter=200;
     end
-    if nargin<5 %When there is less than 5 arguements just assume es=0.0001
+    if nargin<4 %When there is less than 4 arguements just assume es=0.0001
         es=0.0001;
     end
     if xl>=xu % Check if the dumbass put the same number for both or the lower bound if greater than the upper bound
