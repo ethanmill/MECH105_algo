@@ -63,7 +63,7 @@ This folder contains many root finding methods shown in class
 
    This method draws a secant line between the points and changes the next point to be where the line crosses the function `Modsecant` is a derivative of this function
 
-##Newton Raphson
+## Newton Raphson
 
  NewtonRaphson takes in inputs (`func`, `xi`, `es`, `maxiter`)
 

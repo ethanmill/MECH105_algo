@@ -1,4 +1,4 @@
-function [A] = HW5(n,m)
+function [A] = Special_Matrix(n,m)
 if nargin ~=2
     error('Needs 2 inputs');
 end
