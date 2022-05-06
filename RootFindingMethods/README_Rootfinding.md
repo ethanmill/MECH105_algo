@@ -1,4 +1,4 @@
-# Rootfinding Methods
+# Root finding Methods
 This folder contains many root finding methods shown in class
 
 ## Bisect
@@ -75,5 +75,4 @@ This folder contains many root finding methods shown in class
 
   * `maxiter` - cap of iterations of the function
 
-   This method uses the derivative of the function to find the next point to be evauluated very fast
-
+   This method uses the derivative of the function to find the next point to be evauluated. It is usually very fast compared to the others.
